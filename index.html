@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accessible Image Gallery</title>
+    <meta
+      name="description"
+      content="Here you will find images of cute and cheeky babies"
+    />
+    <title>Image Gallery of Cute Babies</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="./app.js" defer></script>
+    <script async src="./app.js" defer></script>
   </head>
   <body>
     <header id="header-main">
       <nav class="wrapper-main">
-        <a href="#">HM</a>
+        <h1>My Cute Photo Gallery</h1>
         <ul>
           <li><a href="">My Work</a></li>
           <li><a href="">About Me</a></li>
@@ -19,9 +23,9 @@
         </ul>
       </nav>
     </header>
-    <div class="div-wrapper">
+    <div class="container1">
       <div class="large-image" id="display"></div>
-      <div class="btn-wrapper">
+      <div id="container2">
         <button
           type="button"
           aria-label="Show next image"
@@ -39,18 +43,15 @@
         >
           Prev
         </button>
-        <div
-          id="announcer"
-          class="btn"
-          aria-live="polite"
-          class="visually-hidden"
-        ></div>
       </div>
+      <div id="thumb-container"></div>
     </div>
-    <div id="thumb-container"></div>
-    <div>
-      <div class="footer"></div>
-      <footer>Copyright 2024 Hannah Manieson</footer>
-    </div>
+    <div class="footer"><footer>Copyright 2024 Hannah Manieson</footer></div>
+    <div
+      id="announcer"
+      class="btn"
+      aria-live="assertive"
+      class="visually-hidden"
+    ></div>
   </body>
 </html>

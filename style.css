@@ -30,8 +30,8 @@
 }
 #header-main h1 {
   color: rgb(86, 15, 15);
-  font-size: 2rem;
-  display: flex;
+  font-size: larger bold;
+  width: 500;
 }
 
 #header-main nav ul {
@@ -83,6 +83,7 @@
 .large-image img :hover {
   z-index: 2;
   transform: scale(1.3);
+  opacity: 1;
 }
 
 body {
@@ -118,6 +119,12 @@ body {
   cursor: pointer;
 }
 
+#next,
+#prev {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .footer {
   display: flex;
   flex-direction: center;

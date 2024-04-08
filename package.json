@@ -1,0 +1,17 @@
+{
+  "name": "week3-project",
+  "version": "1.0.0",
+  "description": "Building an accessible image gallery st 🎯 Please mention the requirements you met and which goals you achieved for this assignment. I was able to meet these requirements:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.2.8"
+  }
+}

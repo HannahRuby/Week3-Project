@@ -1,7 +1,7 @@
 # Week3-Project
 
 Building an accessible image gallery
-
+st
 🎯 Please mention the requirements you met and which goals you achieved for this assignment.
 I was able to meet these requirements:
 

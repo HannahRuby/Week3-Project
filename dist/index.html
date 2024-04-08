@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Here you will find images of cute and cheeky babies"
+    />
+    <title>Image Gallery of Cute Babies</title>
+    <script type="module" crossorigin src="/assets/index-BJ6yMM-3.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DDICssIA.css">
+  </head>
+  <body>
+    <header id="header-main">
+      <nav class="wrapper-main">
+        <h1>My Cute Photo Gallery</h1>
+        <ul>
+          <li><a href="">My Work</a></li>
+          <li><a href="">About Me</a></li>
+          <li><a href="">Contact Me</a></li>
+          <li><a href="">Socials</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container1">
+      <div class="large-image" id="display">/</div>
+      <div id="container2">
+        <button
+          type="button"
+          aria-label="Show next image"
+          onclick="myDialog.next()"
+          id="next"
+        >
+          Next
+        </button>
+        <button
+          type="button"
+          class="btn"
+          aria-label="Show previous image"
+          onclick="myDialog.previous()"
+          id="prev"
+        >
+          Prev
+        </button>
+      </div>
+      <div id="thumb-container"></div>
+    </div>
+    <div class="footer"><footer>Copyright 2024 Hannah Manieson</footer></div>
+    <div
+      id="announcer"
+      class="btn"
+      aria-live="assertive"
+      class="visually-hidden"
+    ></div>
+  </body>
+</html>
